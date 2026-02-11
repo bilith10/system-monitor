@@ -9,8 +9,9 @@ def get_stats():
 
 
 def main():
-    cpu, ram, disk = get_stats()
 
+    cpu, ram, disk = get_stats()
+    print(f"System Monitor")
     print(f"CPU Usage: {cpu}%")
     print(f"RAM Usage: {ram}%")
     print(f"Disk Usage: {disk}%")
